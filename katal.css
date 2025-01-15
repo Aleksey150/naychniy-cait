@@ -1,0 +1,384 @@
+@font-face {
+	font-family: 'bobas'; 
+	src: url(font.ttf); 
+}
+
+* {
+    margin: 0;
+
+    text-decoration: none;
+}
+
+main {
+    width: 1920px;
+    margin: 0 auto;
+}
+
+nav {
+    width: 1920px;
+    height: 105px;
+    display: flex;
+    background-color: #101010;
+}
+
+.logo {
+    margin-left: 359px;
+    margin-top: 28px;
+}
+
+.velos {
+    font-family: inter;
+    font-size: 20px;
+    color: #FFFFFF;
+    transition: all 1s;
+}
+
+.velos:hover {
+    transform: scale(1.1);
+    color: orange;
+}
+
+.zap {
+    font-family: inter;
+    font-size: 20px;
+    margin-left: 32px;
+    color: #FFFFFF;
+    transition: all 1s;
+}
+
+.zap:hover {
+    transform: scale(1.1);
+    color: orange;
+}
+
+.eki {
+    font-family: inter;
+    font-size: 20px;
+    margin-left: 32px;
+    color: #FFFFFF;
+    transition: all 1s;
+}
+
+.eki:hover {
+    transform: scale(1.1);
+    color: orange;
+}
+
+.aks {
+    font-family: inter;
+    font-size: 20px;
+    margin-left: 32px;
+    color: #FFFFFF;
+    transition: all 1s;
+}
+
+.aks:hover {
+    transform: scale(2);
+    color: orange;
+}
+
+.nad {
+    width: 600px;
+    height: 30px;
+    margin-top: 43px;
+    margin-left: 333px;
+}
+
+.tg {
+    margin-top: 45px;
+    margin-left: 232px;
+}
+
+.vk {
+    margin-top: 45px;
+    margin-left: 59px;
+}
+
+.nach {
+    background-image: url("blabla.png");
+    width: 1920px;
+    height: 278px;
+    display: flex;
+}
+
+.vilo {
+    width: 308px;
+    height: 79px;
+    margin-top: 134px;
+    margin-left: 320px;
+    color: #FFFFFF;
+    font-size: 64px;
+    font-family: bobas;
+}
+
+.dvelo {
+    width: 1920px;
+    height: 633px;
+    display: flex;
+    background-color: #1E1E1E;
+}
+
+.velo1 {
+    width: 400px;
+    height: 443px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    margin-top: 74px;
+    margin-left: 320px;
+    display: flex;
+    background-image: url("backem.png");
+    background-repeat: no-repeat;
+    transition: all 1s;
+}
+
+.velo1:hover {
+    transform: scale(1.1);
+    box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, 0.5);
+}
+
+.raspr {
+    width: 95px;
+    height: 26px;
+    margin-top: 16px;
+    margin-left: 289px;
+    color: #F53A20;
+    font-family: inter;
+}
+
+.nazv1 {
+    width: 349px;
+    height: 58px;
+    margin-top: 279px;
+    margin-left: 16px;
+    color: #000000;
+    font-family: inter;
+    font-size: 18px;
+}
+
+.cena1 {
+    width: 79px;
+    height: 20px;
+    margin-top: 24px;
+    margin-left: 16px;
+    color: #777777;
+    font-family: inter;
+    font-size: 16px;
+}
+
+.velo2 {
+    width: 400px;
+    height: 443px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    margin-top: 74px;
+    margin-left: 40px;
+    display: flex;
+    background-image: url("backa.png");
+    background-repeat: no-repeat;
+    transition: all 1s;
+}
+
+.velo2:hover {
+    transform: scale(1.1);
+    box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, 0.5);
+}
+
+.nazv2 {
+    width: 349px;
+    height: 58px;
+    margin-top: 279px;
+    margin-left: 16px;
+    color: #000000;
+    font-family: inter;
+    font-size: 18px;
+}
+
+.cena2 {
+    width: 70px;
+    height: 20px;
+    margin-top: 24px;
+    margin-left: 16px;
+    color: #777777;
+    font-family: inter;
+    font-size: 16px;
+}
+
+.velo3 {
+    width: 400px;
+    height: 443px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    margin-top: 74px;
+    margin-left: 40px;
+    display: flex;
+    background-image: url("backi.png");
+    background-repeat: no-repeat;
+    transition: all 1s;
+}
+
+.velo3:hover {
+    transform: scale(1.1);
+    box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, 0.5);
+}
+
+.nazv3 {
+    width: 349px;
+    height: 58px;
+    margin-top: 279px;
+    margin-left: 16px;
+    color: #000000;
+    font-family: inter;
+    font-size: 18px;
+}
+
+.cena3 {
+    width: 71px;
+    height: 20px;
+    margin-top: 24px;
+    margin-left: 16px;
+    color: #777777;
+    font-family: inter;
+    font-size: 16px;
+}
+
+.blok4 {
+    background-color: #101010;
+    width: 1920px;
+    height: 548px;
+    display: flex;
+    flex-direction: column;
+}
+
+.logoc {
+    margin-top: 92px;
+    margin-left: 318px;
+}
+
+.comp {
+    width: 289px;
+    height: 78px;
+    margin-top: 64px;
+    margin-left: 318px;
+    color: #B3B3B3;
+    font-family: inter;
+    font-size: 16px;
+}
+
+.world {
+    width: 1282px;
+    height: 35px;
+    margin-top: 208px;
+    margin-left: 318px;
+    color: #777777;
+    font-family: inter;
+    font-size: 16px;
+    border-top: #34312D 1px solid;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.full {
+    width: 219px;
+    height: 222px;
+    display: flex;
+    flex-direction: column;
+    margin-top: -180px;
+    margin-left: 760px;
+}
+
+.kote {
+    transition: all 0.5s;
+    font-family: inter;
+    width: 97px;
+    height: 38px;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+.kote:hover {
+    transform: scale(1.1);
+    color: orange;
+}
+
+.kote1 {
+    transition: all 0.5s;
+    font-family: inter;
+    width: 97px;
+    height: 26px;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-top: 32px;
+}
+
+.kote1:hover {
+    transform: scale(1.1);
+    color: orange;
+}
+
+.kote2 {
+    transition: all 0.5s;
+    font-family: inter;
+    width: 97px;
+    height: 26px;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-top: 16px;
+}
+
+.kote2:hover {
+    transform: scale(1.1);
+    color: orange;
+}
+
+.dla {
+    width: 219px;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    margin-top: -220px;
+    margin-left: 1190px;
+}
+
+.dli {
+    transition: all 0.5s;
+    font-family: inter;
+    width: 151px;
+    height: 38px;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+.dli:hover {
+    transform: scale(1.1);
+    color: orange;
+}
+
+.dli1 {
+    transition: all 0.5s;
+    font-family: inter;
+    width: 44px;
+    height: 26px;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-top: 32px;
+}
+
+.dli1:hover {
+    transform: scale(1.1);
+    color: orange;
+}
+
+.dli2 {
+    transition: all 0.5s;
+    font-family: inter;
+    width: 73px;
+    height: 26px;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-top: 16px;
+}
+
+.dli2:hover {
+    transform: scale(1.1);
+    color: orange;
+}
